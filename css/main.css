@@ -54,19 +54,15 @@ figure {
   position: relative;
 }
 
-  figcaption {
-    position: absolute;
-    background-color: rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    bottom: 1.5em;
-    right: 1em;
-    max-width: 65%;
-    color: #fff;
-  }
-
-  figcaption h2 {
-    color: white;
-  }
+figcaption {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1em;
+  width: 65%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -77,9 +73,8 @@ figure {
 
   figcaption {
     width: 45%;
-  }
+    }
 }
-
 @media only screen and (min-width: 90em) {
 
   html {
